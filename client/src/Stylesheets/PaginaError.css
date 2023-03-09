@@ -1,0 +1,25 @@
+.caja-pagina-notfound {
+    align-content: center;
+    padding: 5rem;
+    text-align: center;
+}
+
+.nav-pagina-notfound {
+    background-color: rgb(255,241,89);
+}
+
+.icon-pagina-notfound {
+    display: block;
+    width: 100%;
+    font-size: 12rem;
+}
+
+.titulo-pagina-notfound {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.link-pagina-notfound {
+    font-size: 1.2rem;
+    cursor: pointer;
+}

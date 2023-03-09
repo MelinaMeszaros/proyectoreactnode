@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { TbFaceIdError } from "react-icons/tb";
-//import ("../../hojasdeestilo/PaginasConError.css")
+import ("../../Stylesheets/PaginaError.css")
 
 
 const ErrorPage = () => {

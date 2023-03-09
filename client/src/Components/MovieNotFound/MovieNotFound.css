@@ -1,0 +1,38 @@
+.contenedor-caja-producto-no-encontrado {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.caja-producto-no-encontrado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 80%;
+    padding: 3rem 6rem;
+}
+
+.icono-producto-no-encontrado {
+    font-size: 5rem;
+}
+
+.texto-producto-no-encontrado {
+    padding: 1rem;
+}
+
+.titulo-producto-no-encontrado {
+    padding-bottom: 1rem;
+}
+
+.lista-producto-no-encontrado {
+    padding-left: 1rem ;
+}
+
+.item-lista-producto-no-encontrado {
+    margin: 0.3rem 0;
+}
+
+.link-producto-no-encontrado {
+    color: rgb(52,131,249);
+}

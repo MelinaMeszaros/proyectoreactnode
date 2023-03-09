@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MdSearchOff } from "react-icons/md";
-//import ("./ProductoNoEncontrado.css"); 
+import (".//MovieNotFound.css"); 
 
 const MovieNotFound = () => {
     return(
