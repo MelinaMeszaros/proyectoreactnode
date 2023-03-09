@@ -46,10 +46,10 @@ const InfoMovie= () => {
 
 
     return (
-        <h1>
+        <>
         <Navbar />
         <DescripcionMovie infoMovie={infoMovie} />
-        </h1>
+        </>
     )
 };
 

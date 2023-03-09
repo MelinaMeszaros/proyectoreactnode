@@ -1,38 +1,35 @@
 import React from "react";
-//import ("./DescripcionProducto.css");
+import ("./DescriptionMovie.css");
 
 const DescripcionMovie = ({infoMovie}) =>{
-  const { picture, title, genre, release, language, vote, description } = infoMovie;
+  const { picture, poster, title, genre, release, description } = infoMovie;
   console.log(infoMovie);
 
   return (
-    <section className="caja-producto">
-      <div className="caja-productoinfo">
-        <div className="caja-img">
-          <img className="img-descripcion-producto" src={picture} alt={title} />
+    <section >
+      <div className="box-background-img" 
+      style={{ backgroundImage: `url(${poster})`, objectFit: 'cover', width: '100%'}}>
+      </div> 
+      <div className="box-info-movie">
+        <div className="img-box">
+          <img className="img-info-movie" src={picture} alt={title} />
         </div>
         <div className="caja-datos">
-          <h2 className="producto-titulo">
-            {title}
+          <h2 className="title-info-movie">
+           {title}
           </h2>
-          <p className="producto-precio">
-              {release}
+          <p className="release-info-movie">
+            {release}
           </p>
           <p>
             {genre?.name}
           </p>
-          <p>
-            {language}
-          </p>
+          <div className="descrip-info-movie">
+            <h3>Descripción del producto</h3>
+            <p>{description}</p>
+          </div>
         </div>
-        <div>
-            <span>{vote}</span>
-        </div>
-      </div>
-      <div className="caja-descripcion">
-        <h3>Descripción del producto</h3>
-        <p>{description}</p>
-      </div>
+      </div> 
     </section>
   )
 }

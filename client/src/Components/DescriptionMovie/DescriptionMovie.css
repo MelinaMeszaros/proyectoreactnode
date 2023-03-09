@@ -1,0 +1,45 @@
+
+.box-background-img {
+    margin: 20px 5px;
+    display: flex;
+    background-color: rgb(144,163,175);
+    opacity: 0.4;
+    height: 550px;
+}
+
+.box-info-movie {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    left: 5%;
+    top:  30%;
+    z-index: 4;
+}
+
+.img-box {
+   width: 50%;
+}
+
+.img-info-movie {
+    width: 100%;
+}
+
+.caja-datos {
+    padding: 30px;
+}
+
+.title-info-movie {
+    color: rgb(2,37,65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.descrip-info-movie {
+    margin-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2,37,65);
+}
+
+

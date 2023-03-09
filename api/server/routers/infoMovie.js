@@ -12,6 +12,7 @@ const formatItem = (movie) => {
         description: movie.overview,
         popularity: movie.popularity,
         picture: IMGPATH + movie.poster_path,
+        poster: IMGPATH + movie.backdrop_path,
         genre: movie.genres,
         release: movie.release_date,
         language: movie.original_language,
