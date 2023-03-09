@@ -1,0 +1,36 @@
+.searchbar {
+    display: flex;
+    background-color: rgb(2,37,66);
+    border: 5px solid transparent;
+    width: 50%;
+    height: 30px;
+    min-width: 0;
+    margin: auto;
+}
+
+.input-box {
+    display: flex;
+    flex: 1;
+    background-color: rgb(242, 238, 238);
+    border-radius: 20px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 12px;
+    padding: 0.5em 0.75em;
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.button-search {
+    border: none; 
+    border-radius: 5px;
+    padding: 3px 9px 1px;
+    font-size: 1.2em; 
+    background-color: rgb(144,163,174);  
+}
+ 
